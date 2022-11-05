@@ -1,0 +1,44 @@
+Desafío 1: recuperar datos de clientes
+Adventure Works Cycles vende directamente a minoristas, quienes luego venden productos a los consumidores. Cada minorista que es cliente de Adventure Works ha proporcionado un contacto designado para todas las comunicaciones de Adventure Works. El gerente de ventas de Adventure Works le ha pedido que genere algunos informes que contengan detalles de los clientes de la empresa para respaldar una campaña de ventas directas.
+
+Recuperar detalles del cliente
+Familiarícese con la tabla SalesLT.Customer escribiendo una consulta Transact-SQL que recupere todas las columnas de todos los clientes.
+Recuperar datos de nombre de cliente
+Cree una lista de todos los nombres de contacto de los clientes que incluya el título, el nombre, el segundo nombre (si corresponde), el apellido y el sufijo (si corresponde) de todos los clientes.
+Recuperar nombres de clientes y números de teléfono
+Cada cliente tiene un vendedor asignado. Debe escribir una consulta para crear una hoja de llamada que enumere:
+El vendedor
+Una columna llamada CustomerName que muestra cómo se debe saludar al contacto del cliente (por ejemplo, Sr. Smith )
+El número de teléfono del cliente.
+Desafío 2: recuperar datos de pedidos de clientes
+A medida que continúa trabajando con los datos de los clientes de Adventure Works, debe crear consultas para los informes que ha solicitado el equipo de ventas.
+
+Recuperar una lista de empresas cliente
+Se le ha pedido que proporcione una lista de todas las empresas de clientes con el formato ID de cliente : Nombre de la empresa , por ejemplo, 78: Bicicletas preferidas .
+Recuperar una lista de revisiones de órdenes de venta
+La tabla SalesLT.SalesOrderHeader contiene registros de pedidos de ventas. Se le ha pedido que recupere datos para un informe que muestra:
+El número de orden de venta y el número de revisión en el formato() – por ejemplo SO71774 (2).
+La fecha del pedido convertida al formato estándar ANSI 102 ( yyyy.mm.dd , por ejemplo , 2015.01.31 ).
+Desafío 3: Recuperar los datos de contacto del cliente
+Algunos registros de la base de datos incluyen valores faltantes o desconocidos que se devuelven como NULL. Debe crear algunas consultas que manejen estos valores NULL adecuadamente.
+
+Recuperar los nombres de contacto del cliente con segundo nombre si se conoce
+Se le ha pedido que escriba una consulta que devuelva una lista de nombres de clientes. La lista debe constar de una sola columna en el formato penúltimo (por ejemplo, Keith Harris ) si se desconoce el segundo nombre, o penúltimo (por ejemplo , Jane M. Gates ) si se conoce el segundo nombre.
+Recuperar los datos de contacto principales
+Los clientes pueden proporcionar a Adventure Works una dirección de correo electrónico, un número de teléfono o ambos. Si hay una dirección de correo electrónico disponible, debe usarse como método de contacto principal; si no, entonces se debe usar el número de teléfono. Debe escribir una consulta que devuelva una lista de ID de clientes en una columna y una segunda columna denominada Contacto principal que contenga la dirección de correo electrónico si se conoce y, de lo contrario, el número de teléfono.
+
+IMPORTANTE : En los datos de muestra proporcionados, no hay registros de clientes sin una dirección de correo electrónico. Por lo tanto, para verificar que su consulta funcione como se esperaba, ejecute la siguiente declaración de ACTUALIZACIÓN para eliminar algunas direcciones de correo electrónico existentes antes de crear su consulta:
+
+Código
+  UPDATE SalesLT.Customer
+  SET EmailAddress = NULL
+  WHERE CustomerID % 7 = 1;
+Recuperar estado de envío
+Se le ha pedido que cree una consulta que devuelva una lista de ID de pedidos de ventas y fechas de pedidos con una columna llamada Estado de envío que contiene el texto Enviado para pedidos con una fecha de envío conocida y En espera de envío para pedidos sin fecha de envío.
+
+IMPORTANTE : En los datos de muestra provistos, no hay registros de encabezado de orden de venta sin fecha de envío. Por lo tanto, para verificar que su consulta funcione como se esperaba, ejecute la siguiente instrucción UPDATE para eliminar algunas fechas de envío existentes antes de crear su consulta.
+
+Código
+  UPDATE SalesLT.SalesOrderHeader
+  SET ShipDate = NULL
+  WHERE SalesOrderID > 71899;
