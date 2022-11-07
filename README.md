@@ -8,8 +8,8 @@ Podrán entender los conceptos básicos de BigData, MongoDB, ETL, Reporting, Pen
 
 ## Contenido
 
-    - Fundamentos de BigData
-    - MongoDB
-    - Fundamentos de BI
-    - Pentaho
+- Fundamentos de BigData
+- MongoDB
+- Fundamentos de BI
+- Pentaho
 
