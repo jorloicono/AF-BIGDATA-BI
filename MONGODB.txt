@@ -222,3 +222,23 @@ db.posts.insertOne(
     }]
   }
 )
+-------------------------
+
+db.autos.insertOne(
+  {
+    patente : 'aaa111',
+    fechahora : new Date()
+  }
+)
+db.autos.insertOne(
+  {
+    patente : 'bbb222',
+    fechahora : new Date()
+  }
+)
+db.autos.insertOne(
+  {
+    patente : 'ccc333',
+    fechahora : new Date()
+  }
+)
