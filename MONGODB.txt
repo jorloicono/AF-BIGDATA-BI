@@ -180,3 +180,45 @@ db.libros.find({'autor.nacionalidad':'Argentina'}).pretty()
 db.libros.find({'autor.nombre':'Borges'}).pretty()
 
 db.libros.find({'autor.nacionalidad':'Española',precio:{$gte:50}}).pretty()
+
+---------------------------------------------
+
+db.posts.insertOne(
+  {
+    _id: 1,
+    titulo: 'Lenguaje Java',
+    contenido: 'Uno de los lenguajes más utilizados es ...',
+    comentarios: [{
+        autor: 'Marcos Paz',
+        mail: 'pazm@gmail.com',
+        contenido: 'Me parece un buen...'
+    },
+    {
+        autor: 'Ana Martinez',
+        mail: 'martineza@gmail.com',
+        contenido: 'Todo ha cambiado en...'
+    },
+    {
+        autor: 'Luiz Blanco',
+        mail: 'blancol@outlook.com',
+        contenido: 'Afirmo que es...'
+    }]
+  }
+)
+db.posts.insertOne(
+  {
+    _id: 2,
+    titulo: 'Lenguaje C#',
+    contenido: 'Microsoft desarrolla el lenguaje C# con el objetivo ...',
+    comentarios: [{
+        autor: 'Pablo Rodriguez',
+        mail: 'rodriguezp@gmail.com',
+        contenido: 'Correcta idea.'
+    },
+    {
+        autor: 'Maria Contreras',
+        mail: 'contrerasm@gmail.com',
+        contenido: 'Buen punto de vista...'
+    }]
+  }
+)
