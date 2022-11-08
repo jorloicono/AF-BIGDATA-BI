@@ -65,3 +65,22 @@ db.articulos.deleteMany({rubro:{$eq : 'impresora' }})
 db.articulos.deleteMany({_id:{$gte : 5 }})
 
 db.articulos.find()
+
+## SOLUCIÓN PROBLEMAS PROPUESTOS 3 
+
+db.articulos.updateOne({ nombre: {$eq:'LOGITECH M90'}} , {$set: {precio:500}} )
+
+db.articulos.updateOne({ _id: {$eq:6}} , {$set: {stock:0}} )
+
+db.articulos.updateOne({ _id: {$eq:6}} , {$set: {proveedores:['Martinez','Gutierrez']}} )
+
+db.articulos.updateOne({ _id: {$eq:6}} , {$unset: {proveedores:''}} )
+
+## SOLUCIÓN PROBLEMAS PROPUESTOS 4
+
+
+db.articulos.updateMany({ rubro: {$eq:'monitor'}} , {$set: {stock:0}} )
+
+db.articulos.updateMany({ stock: {$eq:0}} , {$set: {pedir:true}} )
+
+db.articulos.updateMany({} , {$unset: {pedir:''}} )
