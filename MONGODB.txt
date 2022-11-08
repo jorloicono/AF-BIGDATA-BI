@@ -56,3 +56,12 @@ db.articulos.find({ precio : {$gte: 5000} })
 db.articulos.find({ rubro : {$eq: 'impresora'}, precio : { $gte: 3500 } })
 
 db.articulos.find({ stock : {$gte: 0, $lte: 4} })
+
+## SOLUCIÓN PROBLEMAS PROPUESTOS 2 
+
+db.articulos.deleteMany({rubro:'impresora'})
+db.articulos.deleteMany({rubro:{$eq : 'impresora' }})
+
+db.articulos.deleteMany({_id:{$gte : 5 }})
+
+db.articulos.find()
