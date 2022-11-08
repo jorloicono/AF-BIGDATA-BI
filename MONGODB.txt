@@ -1,4 +1,4 @@
-METODO FIND
+## METODO FIND
 
 use base1
 db.libros.drop()
@@ -42,3 +42,17 @@ db.libros.insertOne(
     cantidad: 1 
   }
 )
+
+## SOLUCIÓN PROBLEMAS PROPUESTOS 1 
+
+db.articulos.find()
+
+db.articulos.find({ rubro : {$ne: 'impresora'} })
+
+db.articulos.find({ rubro : {$eq: 'mouse'} })
+
+db.articulos.find({ precio : {$gte: 5000} })
+
+db.articulos.find({ rubro : {$eq: 'impresora'}, precio : { $gte: 3500 } })
+
+db.articulos.find({ stock : {$gte: 0, $lte: 4} })
