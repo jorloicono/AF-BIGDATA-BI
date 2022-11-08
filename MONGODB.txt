@@ -242,3 +242,11 @@ db.autos.insertOne(
     fechahora : new Date()
   }
 )
+
+## SOLUCIÓN PROBLEMAS PROPUESTOS 8
+
+db.alumnos.find({}, {apellido:1,fechanacimiento:1,_id:0}).pretty()
+
+db.alumnos.find().pretty().sort({fechanacimiento:-1})
+
+db.alumnos.find({fechanacimiento:{$gte:new Date(1970,0,1)}}).pretty()
