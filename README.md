@@ -1,14 +1,13 @@
 # Big Data & BI
 
-## Introducción a BI o Introducción a BigData
+## Introducción a BI 
 
-- Introducción a BI
+- Introducción a BigData y BI
 - Herramientas para el análisis de información
-- Ciclo de vida de la información
-- Qué es el Data Warehousing
-- El modelado de datos
+- Ciclo de vida del dato
+- ¿Qué es el Data Warehousing?
+- Modelado de datos
 - Procesos ETL
-- Calidad de Datos 
 - Herramientas OLAP
 
 ## SQL
