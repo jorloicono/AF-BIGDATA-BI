@@ -1,15 +1,56 @@
 # Big Data & BI
 
-## Duración del curso: 30 horas
+## Introducción a BI o Introducción a BigData
 
-## Objetivos
+- Introducción a BI
+- Herramientas para el análisis de información
+- Ciclo de vida de la información
+- Qué es el Data Warehousing
+- El modelado de datos
+- Procesos ETL
+- Calidad de Datos 
+- Herramientas OLAP
 
-Podrán entender los conceptos básicos de BigData, MongoDB, ETL, Reporting, Pentaho yserán capaces deutilizar estas herramientas en conjunto
+## SQL
 
-## Contenido
+- Introducción a SQL
+- Ordenación y filtrado de resultados en SQL
+- Combinación de varias tablas con JOIN en SQL
+- Escritura de subconsultas en SQL
+- Uso de funciones integradas y GROUP BY en SQL
+- Modificación de datos con SQL
 
-- Fundamentos de BigData
-- MongoDB
-- Fundamentos de BI
-- Pentaho
+## MongoDB
+
+- Introducción a MongoDB y bases de datos NoSQL
+- Importación, exportación y consulta de datos
+- Creación y manipulación de documentos
+- Operaciones CRUD avanzadas
+- Creación de índices
+- Relaciones entre documentos
+- Pipeline de indexación y agregación (MongoDB Aggregation Framework)
+- MongoDB Charts
+
+## Power BI
+
+- Introducción al análisis de datos de Microsoft
+- Preparación de datos para el análisis
+- Preprocesamiento en Power BI utilizando Power Query
+- Modelado de datos en Power BI
+- Creación de medidas usando el lenguaje de DAX
+- Visualización de datos en Power BI
+- Análisis de datos en Power BI
+- Creación de paneles en Power BI
+
+## Pentaho
+ 
+- Introducción a Pentaho
+- Introducción a los procesos ETL con Pentaho (Kettle)
+- Introducción a los cubos OLAP
+- Lenguaje MDX
+- Introducción a los cubos OLAP y Pivot4j
+- Desarrollando un Cubo OLAP
+- Pentaho Report Designer
+- Entorno al Community Dashboard Editor de Pentaho
+- Desarrollando un tablero de control
 
