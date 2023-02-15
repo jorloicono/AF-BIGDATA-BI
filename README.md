@@ -1,4 +1,8 @@
-# Big Data & BI
+# GRABACIONES 
+
+- SESIÓN 1: https://transcripts.gotomeeting.com/#/s/3fff117ec02af53184288975307a0a79de2bd709e911a53ef9e51bc4e1530076
+
+# BIG DATA & BI
 
 ## Introducción a BI 
 
