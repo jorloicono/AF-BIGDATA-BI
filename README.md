@@ -49,7 +49,9 @@
  
 - Introducción a Pentaho
 - Introducción a los procesos ETL con Pentaho (Kettle)
-- Introducción a los cubos OLAP
+- ¿Qué es un cubo Mondrian?
+- Primer contacto con Pentaho Schema Workbench
+- Creando y subiendo un cubo a nuestro Pentaho 
 - Lenguaje MDX
 - Introducción a los cubos OLAP y Pivot4j
 - Desarrollando un Cubo OLAP
