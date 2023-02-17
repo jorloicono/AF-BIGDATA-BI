@@ -50,12 +50,10 @@
  
 - Introducción a Pentaho
 - Introducción a los procesos ETL con Pentaho (Kettle)
+- Generar una ETL en PDI para llenar un DWH
 - ¿Qué es un cubo Mondrian?
-- Creando y subiendo un cubo a nuestro Pentaho Schema Workbench
+- Creando y subiendo un cubo a Pentaho Schema Workbench
 - Lenguaje MDX
-- Introducción a los cubos OLAP y Pivot4j
-- Desarrollando un Cubo OLAP
-- Pentaho Report Designer
-- Entorno al Community Dashboard Editor de Pentaho
-- Desarrollando un tablero de control
+- Introducción a Pentaho Report Designer
+- Desarrollando un primer report
 
