@@ -2,6 +2,7 @@
 
 - SESIÓN 1: https://transcripts.gotomeeting.com/#/s/3fff117ec02af53184288975307a0a79de2bd709e911a53ef9e51bc4e1530076
 - SESIÓN 2: https://transcripts.gotomeeting.com/#/s/8e8942894e5b658399263b7191d12469146c45da71f97d81341329578642f6be
+- SESIÓN 3: https://transcripts.gotomeeting.com/#/s/77aca2547b63354819c68fe4b329b1b74597141493d4391f52e8dc34666b5ce7
 
 # BIG DATA & BI
 
