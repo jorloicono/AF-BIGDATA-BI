@@ -5,7 +5,6 @@
 - SESIÓN 3: https://transcripts.gotomeeting.com/#/s/77aca2547b63354819c68fe4b329b1b74597141493d4391f52e8dc34666b5ce7
 - SESIÓN 4: https://transcripts.gotomeeting.com/#/s/0327f76b1747148e1dba84b0974dbc864441a9c15490319709166717eb888665
 
-
 # BIG DATA & BI
 
 ## Introducción a BI 
