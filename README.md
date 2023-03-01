@@ -1,12 +1,3 @@
-# GRABACIONES 
-
-- SESIÓN 1: https://transcripts.gotomeeting.com/#/s/3fff117ec02af53184288975307a0a79de2bd709e911a53ef9e51bc4e1530076
-- SESIÓN 2: https://transcripts.gotomeeting.com/#/s/8e8942894e5b658399263b7191d12469146c45da71f97d81341329578642f6be
-- SESIÓN 3: https://transcripts.gotomeeting.com/#/s/77aca2547b63354819c68fe4b329b1b74597141493d4391f52e8dc34666b5ce7
-- SESIÓN 4: https://transcripts.gotomeeting.com/#/s/0327f76b1747148e1dba84b0974dbc864441a9c15490319709166717eb888665
-- SESIÓN 5: https://transcripts.gotomeeting.com/#/s/389a93057ec578fe04757c47d3aa9ab84050b933d8c32bea49c826aad5ead5fc
-- SESIÓN 6: https://transcripts.gotomeeting.com/#/s/78ffe4b416601ff474f2b1573cb6fbb63eebce99856b13813354002087cb7734
-
 # BIG DATA & BI
 
 ## Introducción a BI 
